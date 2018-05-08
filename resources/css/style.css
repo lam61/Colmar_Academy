@@ -1,0 +1,499 @@
+/* Universal styles */
+html{
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+body{
+  width: 100%;
+}
+
+h1{
+  font-size: 4rem;
+}
+
+h2{
+  font-size: 3rem;
+}
+
+h4{
+  font-size: 1.5rem;
+}
+
+/* Styling the page header */
+header{
+  position: fixed;
+  z-index: 2;
+  height: 4rem;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.academy{
+  display: flex;
+  align-items: center;
+}
+
+
+#col-bold{
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+#aca-light{
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+header nav{
+  margin-right: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+li{
+  padding: 1rem 0.5rem;
+  font-size: 1.2rem;
+}
+
+li:hover:not(.active) {
+    background-color: #CED2D5;
+    color: white;
+}
+
+.desktop-nav{
+  display: flex;
+  align-items: center;
+}
+
+.mobile-nav{
+  display: none;
+}
+
+/* Styling the banner */
+.banner{
+  position: relative;
+  z-index: 1;
+  top: 4rem;
+  max-width: 100%;
+  background-color: #CED2D5;
+  display: flex;
+}
+
+.banner-pic img{
+  margin: 2rem 1.5rem;
+  max-width: 90%;
+  max-height: auto;
+}
+
+.banner .something-new{
+  margin: 2rem 1.5rem;
+  max-width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.label1, .label2, .label3{
+  max-width: 100%;
+}
+
+.label1{
+  font-weight: bold;
+  margin: 4rem 1rem 2rem 2rem;
+}
+
+.label2{
+  font-weight: bold;
+  line-height: 2rem;
+  margin: 2rem;
+}
+
+.label3{
+  font-weight: bold;
+  margin: 2rem;
+  background-color: black;
+  color: white;
+  text-align: center;
+  line-height: 4rem;
+}
+
+/* Styling the On campus section */
+.campus{
+  position: relative;
+  top: 4rem;
+  max-width: 100%;
+  background-color: azure;
+  display: flex;
+}
+
+.info-left, .info-right{
+  display: flex;
+  flex-direction: column;
+}
+
+.info-right-mobile{
+  display: none;
+}
+
+.info-left{
+  width: 60%;
+}
+
+.info-rigt{
+  width: 40%;
+}
+
+.info-left img{
+  margin: 2rem 1.5rem;
+  max-width: 90%;
+  max-height: auto;
+}
+
+.info-label{
+  max-width: 75%;
+  margin: 2rem;
+}
+
+.info-label h1{
+  font-size: 2.8rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+#line2{
+  line-height: 2rem;
+}
+
+#line3{
+font-size: 1rem;
+margin: 2rem 0;
+}
+
+.info-right{
+  margin: 1rem 1.5rem;
+  max-width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.pic-con img{
+  width: 12rem;
+  height: auto;
+  padding: 1rem;
+}
+
+.text-con{
+  width: 65%;
+  align-items: center;
+}
+
+.info-right h2{
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 2rem 2rem;
+}
+
+.info-right h4{
+  font-size: 1.2rem;
+    margin: 2rem 2rem;
+}
+#read{
+  color: #1e90ff;
+}
+
+.info-container{
+  display: flex;
+}
+
+/* Styling the courses section */
+#learning{
+  position: relative;
+  top: 4rem;
+  max-width: 100%;
+  background-color: #CED2D5;
+  padding: 2rem 0;
+  line-height: 4rem;
+  font-size: 2.8rem;
+  font-weight: bold;
+  text-align: center;
+}
+.courses{
+  position: relative;
+  top: 4rem;
+  max-width: 100%;
+  background-color: #CED2D5;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.software, .computer, .design, .data, .business, .marketing{
+  width: 25rem;
+  height: auto;
+  overflow: hidden;
+  margin: 2rem;
+  background-color: white;
+}
+
+.courses h2{
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0.5rem 1rem;
+}
+
+.courses h4{
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+  margin: 0.6rem 1rem;
+}
+
+/* styling the thesis exhibits section */
+#exhibits{
+  position: relative;
+  top: 4rem;
+  max-width: 100%;
+  background-color: azure;
+  padding: 2rem 0;
+  line-height: 4rem;
+  font-size: 2.8rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.thesis{
+  position: relative;
+  top: 4rem;
+  max-width: 100%;
+  background-color: azure;
+  display: flex;
+  padding-bottom: 2rem;
+}
+
+.thesis-left{
+  max-width: 60%;
+}
+
+video{
+  max-width: 95%;
+  height: auto;
+  margin: 1.5rem;
+}
+
+.thesis-left h2, .thesis-right h2{
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0.5rem 1rem;
+}
+
+.thesis-left h4, .thesis-right h4{
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+  margin: 0.5rem 1rem;
+}
+
+.thesis-right{
+  max-width: 40%;
+}
+
+.thesis-right img{
+  width: 12rem;
+  height: auto;
+  padding: 2rem;
+}
+
+.fisma, .now-then{
+  display: flex;
+  align-items: center;
+}
+
+#right1{
+  width: 65%;
+}
+
+/* Styling the footer */
+footer{
+  height: 6rem;
+  max-width: 100%;
+  background-color: #696969;
+  color: azure;
+  position: relative;
+  top: 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer h4, footer ul{
+  padding-top: 1rem;
+  font-size: 1.2rem;
+}
+
+footer h4{
+  padding-left: 1rem;
+}
+
+
+footer ul{
+  display: flex;
+  padding-right: 1rem;
+}
+
+/*Styling the media query for mobile devices 320px - 600px, portrait*/
+@media only screen and (min-width: 320px) and (max-width: 600px), (orientation: portrait) {
+  .desktop-nav{  /* Styling mobile navigation */
+    display: none;
+  }
+
+  header nav{
+    width: 80%;
+
+  }
+  .mobile-nav{
+    width: 100%;
+    display: flex;
+
+  }
+
+  .academy{
+    padding-left: 2rem;
+  }
+
+  .nav-pic{
+    width: 100%;
+    text-align: center;
+  }
+
+  header span{
+    display: none;
+  }
+
+  .banner{  /* Styling the mobile banner */
+    flex-direction: column;
+  }
+
+  .banner .something-new{
+    max-width: 100%;
+  }
+
+  .label1{
+    margin: 0 1rem 1rem 1rem;
+  }
+
+  .info-left{
+    display: none;
+  }
+
+  .info-container{  /* Styling the on campus mobile section */
+    flex-direction: column;
+  }
+
+  .pic-con img{
+    width: 12rem;
+    height: auto;
+    padding: 1rem;
+  }
+
+  .text-con{
+    width: 65%;
+    align-items: center;
+  }
+
+  .info-right{
+    display: none;
+  }
+
+  .info-right-mobile{
+    margin: 1rem 1.5rem;
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .info-right-mobile .pic-con img{
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+  }
+
+  .info-right-mobile .text-con{
+    width: 100%;
+    align-items: center;
+  }
+
+  .info-right-mobile h2{
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 2rem 2rem;
+  }
+
+  .info-right-mobile h4{
+    font-size: 1.2rem;
+      margin: 2rem 2rem;
+  }
+  #read-mobile{
+    color: #1e90ff;
+  }
+
+  .info-right-mobile .info-container{
+    display: flex;
+  }
+
+  .courses img, .courses h4{
+    display: none;
+  }
+
+  #learning{ /* styling the courses section */
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    line-height: 4rem;
+    font-size: 2.8rem;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .software, .computer, .design, .data, .business, .marketing{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin: 0.5rem;
+    background-color: white;
+  }
+
+  .courses h2{
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 1rem 0rem 1.5rem 2rem;
+  }
+
+  #exhibits{  /* Styling the Thesis Exhibits section */
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+  }
+
+  .thesis-right{
+    display: none;
+  }
+
+  .thesis-left{
+    max-width: 100%;
+  }
+
+  video{
+    max-width: 95%;
+    height: auto;
+    margin: 1.5rem;
+  }
+
+  .thesis-left h2{
+    display: none;
+  }
+
+  .thesis-left h4{
+    display: none;
+  }
+
+  footer ul{  /* Styling the footer */
+    display: none;
+  }
+}
